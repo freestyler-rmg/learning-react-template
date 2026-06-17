@@ -12,10 +12,10 @@ const PRODUCTS: Product[] = [
   {category: "Vegetables", price: "$1", stocked: true, name: "Peas"}
 ];
 
-function App() {
+function ThinkingInReact() {
   return (
     <FilterableProductTable products={PRODUCTS} />
   );
 }
 
-export default App;
+export default ThinkingInReact;
